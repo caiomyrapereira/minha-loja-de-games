@@ -32,10 +32,12 @@ public class Produto {
 	@NotNull
 	private boolean ativo;
 
+	@NotNull
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 
+	@NotNull
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
 	private Usuario usuario;
