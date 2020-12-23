@@ -1,0 +1,7 @@
+{
+  "name": "delojadegames_ui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
